@@ -12,9 +12,9 @@ interface UserInfo {
         articleId: number,
         content: string,
         contentType: "text" | "emoticon",
-        createdAt: "2021-09-24T14:25:21.000Z",
-        id: 140801975,
-        slug: "browndust"
+        createdAt: string,
+        id: number
+        slug: string
     }[]
 }
 
